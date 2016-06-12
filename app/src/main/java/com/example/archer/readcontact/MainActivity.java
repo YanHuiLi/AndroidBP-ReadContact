@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
             while(rawContactCusor.moveToNext()){
                 String rawContactId = rawContactCusor.getString(0);
                 System.out.println(rawContactId);
-               
+                System.out.println("ceshiceshi ");
+
             }
         }
 
